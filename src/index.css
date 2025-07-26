@@ -1,0 +1,102 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* chessboard */
+
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.row1 .even {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: wheat;
+}
+
+.row1 .odd {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: brown;
+}
+
+.row2 .even {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: brown;
+}
+
+.row2 .odd {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: wheat;
+}
+
+/* webstruc */
+
+.struc {
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+.green-blue {
+    display: flex;
+}
+
+.green {
+    height: 50px;
+    width: 50%;
+    background-color: green;
+}
+
+.blue {
+    height: 50px;
+    width: 50%;
+    background-color: blue;
+}
+
+.cyan-mar-mag {
+    display: flex;
+}
+
+.cyan {
+    height: 50px;
+    width: 33.3%;
+    background-color: cyan;
+}
+
+.mar {
+    height: 50px;
+    width: 33.3%;
+    background-color: maroon;
+}
+
+.mag {
+    height: 50px;
+    width: 33.3%;
+    background-color: magenta;
+}
+
+.yellow {
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.sky {
+    height: 50px;
+    width: 100%;
+    background-color: skyblue;
+}
