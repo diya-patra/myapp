@@ -10,6 +10,9 @@ import cake from './assets/images/cake.jpg'
 import profile from './assets/images/resume photo.jpg'
 import cakeBg from './assets/images/cake_bg.png'
 import Division from './components/division'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
 
 function App() {
 
@@ -24,7 +27,13 @@ function App() {
       {/* <Fourth /> */}
       {/* <Fifth /> */}
       {/* <Sixth /> */}
-      <Division />
+      {/* <Division /> */}
+      <Router>
+        <Routes>
+          <Route path='/' element={<Navbar />}></Route>
+          <Route path='/About' element={<About />}></Route>
+        </Routes>
+      </Router>
     </>
   )
 }
