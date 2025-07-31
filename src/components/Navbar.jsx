@@ -9,7 +9,7 @@ const Navbar = () =>{
                     <ul>
                         <li><NavLink to={'/'} className={'nav'}>Home</NavLink></li>
                         <li><NavLink to={'/About'} className={'nav'}>About Us</NavLink></li>
-                        <li><NavLink to={''} className={'nav'}>Gallary</NavLink></li>
+                        <li><NavLink to={'/Gallery'} className={'nav'}>Gallery</NavLink></li>
                         <li><NavLink to={''} className={'nav'}>Admission</NavLink></li>
                         <li><NavLink to={''} className={'nav'}>Rules and Regulations</NavLink></li>
                         <li><NavLink to={''} className={'nav'}>Contact Us</NavLink></li>
